@@ -1,3 +1,3 @@
 #!/bin/bash
-mvn clean test
-mvn -P strange clean test
+mvn -X clean verify
+mvn -X -P strange clean verify

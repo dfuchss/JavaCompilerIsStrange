@@ -14,8 +14,9 @@ In this repository I've added a simple main method that tries to parse the AST o
 In my pom.xml I've created a profile "strange" that simply adds a dependency to the project (that is not used but obviously will be added to the classpath after activating the profile). For this example it's the "metainf-services" dependency.
 In the `run.sh` file, I simply execute `mvn test` twice. 
 First without the profile activated and after that with the activated profile.
+The file `result.txt` contains the output.
 
-If you run the script you get a successful test (because the invalid syntax was detected) and an failed test (because the invalid syntax was not detected after adding the dependency)
+If you run the script you get a successful test (because the invalid syntax was detected) and a failed test (because the invalid syntax was not detected after adding the dependency)
 
 ```
 ## Build without activated profile
