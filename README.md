@@ -1,5 +1,5 @@
 # JavaCompilerIsStrange
-:warning: It has been added as a [Bug to OpenJDK Bug Tracker](https://bugs.java.com/bugdatabase/view_bug.do?bug_id=JDK-8289491) :warning:
+:warning: It has been added as a [Bug to OpenJDK Bug Tracker](https://bugs.java.com/bugdatabase/view_bug?bug_id=8289491) :warning:
 
 Repository for Stackoverflow Question: https://stackoverflow.com/questions/72737445/system-java-compiler-behaves-different-depending-on-dependencies-defined-in-mave
 
